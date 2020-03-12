@@ -1,0 +1,61 @@
+/*
+FONT LIBRARY
+----------------------------
+font-family: 'Amatic SC', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Sue Ellen Francisco', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Itim', cursive;
+font-family: 'Lateef', cursive;
+font-family: 'Space Mono', monospace;
+font-family: 'Sofia', cursive;
+*/
+.Logo{
+    width:125px;
+    height:100px;
+    position:absolute;
+    Left:10px;
+    top:10px;
+    z-index:2;
+}
+
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    position:absolute;
+    left:100px;
+    z-index:2;
+}
+
+.bgimg{
+    width:1349px;
+    height:800px;
+    position:absolute;
+    left:0px;
+    top:-50px;
+    z-index:1;
+}
+
+.a1{
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    z-index:10;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-decoration:none;
+}
+.a1:hover{
+    position:absolute;
+    top:5px;
+    right:20px;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    z-index:10;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-bottom:5px solid blue;
+    transition:ease .5s;
+}
