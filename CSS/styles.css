@@ -14,19 +14,20 @@ font-family: 'Space Mono', monospace;
 font-family: 'Sofia', cursive;
 */
 .Logo{
-    width:125px;
-    height:100px;
+    width:100px;
+    height:75px;
     position:absolute;
     Left:10px;
-    top:10px;
-    z-index:2;
+    top:2px;
+    z-index:3;
+    border-radius:50px;
 }
 
 h1{
     font-family: 'Gloria Hallelujah', cursive;
     position:absolute;
     left:100px;
-    z-index:2;
+    z-index:3;
 }
 
 .bgimg{
@@ -38,24 +39,66 @@ h1{
     z-index:1;
 }
 
+.nav {
+    background-color:rgba(128, 60, 255, 0.726);
+    width:1349px;
+    height:80px;
+    position:absolute;
+    z-index:2;
+    top:0px;
+    left:0px;
+}
+
 .a1{
     position:absolute;
-    top:20px;
-    right:20px;
-    font-size:35px;
-    color:rgb(255, 255, 255);
+    top:0px;
+    right:0px;
+    font-size:45px;
+    color:white;
+    
     z-index:10;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gochi Hand', cursive;
     text-decoration:none;
+    padding:15px;
 }
 .a1:hover{
     position:absolute;
-    top:5px;
-    right:20px;
-    font-size:35px;
+    top:0px;
+    right:0px;
+    padding-top:50px;
+    font-size:45px;
     color:rgb(255, 255, 255);
     z-index:10;
-    font-family: 'Gloria Hallelujah', cursive;
-    border-bottom:5px solid blue;
+    font-family: 'Gochi Hand', cursive;
+    background:rgb(59, 185, 0);
+    border-bottom:5px solid rgb(59, 185, 0);
     transition:ease .5s;
+    border-radius:0px 0px 10px 10px;
+}
+
+.a2{
+    position:absolute;
+    top:0px;
+    right:195px;
+    font-size:45px;
+    color:white;
+    
+    z-index:10;
+    font-family: 'Gochi Hand', cursive;
+    text-decoration:none;
+    padding:15px;
+}
+.a2:hover{
+    position:absolute;
+    top:0px;
+    right:195px;
+    font-size:45px;
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+    z-index:10;
+    font-family: 'Gochi Hand', cursive;
+    background:rgb(59, 185, 0);
+    border-bottom:5px solid rgb(59, 185, 0);
+    transition:ease .5s;
+    border-radius:0px 0px 10px 10px;
 }
